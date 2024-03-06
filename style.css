@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: rgb(126, 120, 120);
+}
+
+.container {
+  width: 55vw;
+  border-radius: 24px;
+  background-color: rgb(252, 252, 252);
+}
+body {
+  box-sizing: border-box;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(250, 243, 243);
+}
+.head {
+  width: 80%;
+  overflow: hidden;
+  margin-left: 65px;
+
+  margin-top: 25px;
+}
+.head img {
+  object-fit: cover;
+  border-radius: 8px;
+  height: 100%;
+  width: 100%;
+}
+.heading,
+.ingredients,
+.instructions,
+.nutrition,
+.preparation {
+  margin-top: 10px;
+  margin-left: 65px;
+  width: 80%;
+}
+.heading h1 {
+  color: #020202de;
+}
+.heading p {
+  margin-top: 10px;
+}
+.preparation {
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+  background-color: rgb(248, 246, 246);
+}
+.preparation h3 {
+  margin-left: 36px;
+  color: red;
+}
+.preparation ul {
+  margin-left: 75px;
+}
+.ingredients ul,
+.instructions li {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.ingredients li::marker {
+  color: brown;
+}
+.instructions li::marker {
+  color: brown;
+  font-weight: 300;
+}
+
+.ingredients h2,
+.instructions h2,
+.nutrition h3 {
+  color: brown;
+}
+hr {
+  margin-top: 10px;
+  margin-left: 65px;
+  margin-bottom: 30px;
+  width: 88%;
+  color: rgb(126, 120, 120);
+}
+span {
+  font-weight: bold;
+  color: black;
+}
+.nutrition p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+table td {
+  padding-right: 210px;
+}
+td {
+  border-bottom: 1px solid grey;
+}
+table,
+td {
+  border-collapse: collapse;
+}
